@@ -1,0 +1,12 @@
+### Linux ###
+*~
+.Trash-*
+
+### macOS ###
+# General
+.DS_Store
+.AppleDouble
+.LSOverride
+
+### oters
+node_modules/
