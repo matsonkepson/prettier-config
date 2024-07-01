@@ -1,8 +1,8 @@
 {
   "name": "@matsonkepson/prettier-config",
-  "version": "1.20.0",
+  "version": "1.20.1",
   "description": "Prettier config",
-  "main": "index.js",
+  "main": ".prettierrc.json",
   "scripts": {
     "format": "prettier --write \"**/*.+(js|jsx|json|css|md)\""
   },
@@ -11,7 +11,7 @@
     "prettier-config"
   ],
   "files": [
-    "index.js",
+    ".prettierrc.json",
     ".prettierignore"
   ],
   "author": "Mati Kepa <devnull@kepa.eu.org>",
