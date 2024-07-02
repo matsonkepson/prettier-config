@@ -13,7 +13,7 @@ const config = {
     {
       files: "*.json",
       options: {
-        tabWidth: 5,
+        tabWidth: 1,
       },
     },
   ],
