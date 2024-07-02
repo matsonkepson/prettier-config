@@ -8,7 +8,6 @@ const nonOverriddenDefaults = {
 const config = {
   ...nonOverriddenDefaults,
   singleQuote: false,
-  plugins: ["eslint-config-prettier", "eslint-plugin-prettier"],
 
   overrides: [
     {
