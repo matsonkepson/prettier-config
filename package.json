@@ -1,6 +1,6 @@
 {
   "name": "@matsonkepson/prettier-config",
-  "version": "1.30.0",
+  "version": "1.30.1",
   "description": "Prettier config",
   "main": "index.json",
   "prettier":"index.json",
@@ -9,7 +9,8 @@
   },
   "keywords": [
     "prettier",
-    "prettier-config"
+    "prettier-config",
+    "eslinter"
   ],
   "files": [
     "index.json",
@@ -27,6 +28,9 @@
     "prettier": "^3.3.2"
   },
   "devDependencies": {
+    "@types/prettier": "^3.0.0",
+    "@typescript-eslint/eslint-plugin": "^7.16.0",
+    "@typescript-eslint/parser": "^7.16.0",
     "eslint-config-prettier": "^9.1.0",
     "eslint-plugin-prettier": "^5.1.3",
     "eslint": "8.57.0"
