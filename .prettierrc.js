@@ -1,22 +1,22 @@
 const nonOverriddenDefaults = {
-  endOfLine: "lf",
-  tabWidth: 3,
-  printWidth: 100,
-  useTabs: false,
+   endOfLine: "lf",
+   tabWidth: 2,
+   printWidth: 100,
+   useTabs: false,
 };
 
 const config = {
-  ...nonOverriddenDefaults,
-  singleQuote: false,
+   ...nonOverriddenDefaults,
+   singleQuote: false,
 
-  overrides: [
-    {
-      files: "*.json",
-      options: {
-        tabWidth: 1,
+   overrides: [
+      {
+         files: "*.json",
+         options: {
+            tabWidth: 2,
+         },
       },
-    },
-  ],
+   ],
 };
 
 modules.export = config;

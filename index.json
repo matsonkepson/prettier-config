@@ -1,16 +1,19 @@
 {
-    "endOfLine": "lf",
-    "tabWidth": 3,
-    "printWidth": 100,
-    "useTabs": false,
-    "singleQuote": false,
-    "importOrder": ["^@core/(.*)$", "^@server/(.*)$", "^@ui/(.*)$", "^[./]"],
-    "overrides": [
-      {
-        "files": "*.json",
-        "options": {
-          "tabWidth": 1
-        }
-      }
-    ]
+ "endOfLine": "lf",
+ "tabWidth": 3,
+ "useTabs": false,
+ "singleQuote": false,
+ "importOrder": ["^@server/(.*)$", "^@ui/(.*)$", "<THIRD_PARTY_MODULES>", "^[./]"],
+ "importOrderSeparation": true,
+ "importOrderSortSpecifiers": true,
+ "trailingComma": "all",
+ "printWidth": 120,
+ "overrides": [
+  {
+   "files": "*.json",
+   "options": {
+    "tabWidth": 1
+   }
   }
+ ]
+}

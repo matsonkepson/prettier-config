@@ -1,38 +1,41 @@
 {
-  "name": "@matsonkepson/prettier-config",
-  "version": "1.30.1",
-  "description": "Prettier config",
-  "main": "index.json",
-  "prettier":"index.json",
-  "scripts": {
-    "format": "prettier --write \"**/*.+(js|jsx|json|css|md)\""
-  },
-  "keywords": [
-    "prettier",
-    "prettier-config",
-    "eslinter"
-  ],
-  "files": [
-    "index.json",
-    ".prettierrc.js",
-    ".prettierignore"
-  ],
-  "author": "Mati Kepa <devnull@kepa.eu.org>",
-  "license": "MIT",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/matsonkepson/prettier-config"
-  },
-  "homepage": "https://github.com/matsonkepson/prettier-config",
-  "peerDependencies": {
-    "prettier": "^3.3.2"
-  },
-  "devDependencies": {
-    "@types/prettier": "^3.0.0",
-    "@typescript-eslint/eslint-plugin": "^7.16.0",
-    "@typescript-eslint/parser": "^7.16.0",
-    "eslint-config-prettier": "^9.1.0",
-    "eslint-plugin-prettier": "^5.1.3",
-    "eslint": "8.57.0"
-  }
+ "name": "prettier-config-matsonkepson",
+ "version": "2.0.0",
+ "description": "Prettier config",
+ "main": "./index.json",
+ "prettier": "./index.json",
+ "scripts": {
+  "format:prettier": "prettier --write \"**/*.+(js|jsx|json|css|md)\"",
+  "format:linter": "eslint --ignore-path .gitignore ."
+ },
+ "keywords": [
+  "prettier",
+  "prettier-config",
+  "eslinter"
+ ],
+ "files": [
+  "index.json",
+  ".prettierrc.js",
+  ".prettierignore",
+  ".eslintrc.js"
+ ],
+ "author": "Mati Kepa <devnull@kepa.eu.org>",
+ "license": "MIT",
+ "repository": {
+  "type": "git",
+  "url": "https://github.com/matsonkepson/prettier-config-matsonkepson"
+ },
+ "homepage": "https://github.com/matsonkepson/prettier-config-matsonkepson",
+ "peerDependencies": {
+  "prettier": "^3.3.2",
+  "typescript": "^5.5.3"
+ },
+ "devDependencies": {
+  "@types/prettier": "^3.0.0",
+  "@typescript-eslint/eslint-plugin": "^7.16.0",
+  "@typescript-eslint/parser": "^7.16.0",
+  "eslint-config-prettier": "^9.1.0",
+  "eslint-plugin-prettier": "^5.1.3",
+  "eslint": "^8.57.0"
+ }
 }

@@ -1,18 +1,18 @@
-# `@matsonkepson/prettier-config`
+# `prettier-config-matsonkepson`
 
 ## Usage
 
 **Install**:
 
 ```shell
-$ npm install --save-dev @matsonkepson/prettier-config
+$ npm install --save-dev prettier-config-matsonkepson
 ```
 
 **Edit `package.json`**:
 
 ```jsonc
 {
-  // ...
-  "prettier": "@matsonkepson/prettier-config",
+   // ...
+   "prettier": "prettier-config-matsonkepson",
 }
 ```
