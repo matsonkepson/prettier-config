@@ -27,8 +27,8 @@
  },
  "homepage": "https://github.com/matsonkepson/prettier-config-matsonkepson",
  "peerDependencies": {
-  "prettier": "^3.3.2",
-  "typescript": "^5.5.3"
+  "prettier": "^3.0.0",
+  "typescript": "^5.0.0"
  },
  "devDependencies": {
   "@types/prettier": "^3.0.0",
